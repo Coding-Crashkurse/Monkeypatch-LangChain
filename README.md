@@ -1,16 +1,3 @@
-Ja, selbstverständlich. Beides geht!
-
-Ein direkter Download ist als Chatbot leider technisch nicht möglich, aber ich kann dir den kompletten Inhalt in einem einzigen, sauberen Markdown-Block zur Verfügung stellen. Das ist praktisch dasselbe – du kannst es einfach kopieren und in deine README.md-Datei einfügen.
-
-Hier ist die schlanke README.md-Datei, formatiert mit ###-Überschriften.
-
-Kopiere den gesamten Inhalt von hier:
-code
-Markdown
-download
-content_copy
-expand_less
-
 # Monkey Patching LangChain
 
 A live demo showing how to monkey patch LangChain runnables to either observe their execution (autologging) or intercept and modify their behavior.
