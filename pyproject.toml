@@ -1,0 +1,15 @@
+[project]
+name = "Monkeypatching"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+    "langchain-core>=0.3.74",
+    "langgraph>=0.6.5",
+    "mlflow>=3.2.0",
+    "pydantic>=2.11.7",
+    "requests>=2.32.4",
+    "uvicorn>=0.35.0",
+]
