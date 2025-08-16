@@ -16,3 +16,4 @@ autolog-ui/*
 *.log
 .idea/
 .vscode/
+.ruff_cache
