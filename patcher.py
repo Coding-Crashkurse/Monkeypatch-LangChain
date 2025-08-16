@@ -139,7 +139,8 @@ class Patcher:
         if mode == "simple":
 
             def interceptor(*_a, **_k):
-                return "Intercepted! The original function was never called."
+                print("Intercepted! The original function was never called.")
+                return
 
             setattr(RunnableLambda, "invoke", interceptor)
 
