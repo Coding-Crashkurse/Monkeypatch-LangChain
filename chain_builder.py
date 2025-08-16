@@ -4,21 +4,21 @@ import random
 
 
 def strip_with_delay(text: str) -> str:
-    sleep_duration = random.uniform(0.5, 2.5)
+    sleep_duration = random.uniform(0.2, 1)
     print(f"[strip] Waiting for {sleep_duration:.2f} seconds...")
     time.sleep(sleep_duration)
     return text.strip()
 
 
 def upper_with_delay(text: str) -> str:
-    sleep_duration = random.uniform(0.5, 2.5)
+    sleep_duration = random.uniform(0.2, 1)
     print(f"[upper] Waiting for {sleep_duration:.2f} seconds...")
     time.sleep(sleep_duration)
     return text.upper()
 
 
 def punct_with_delay(text: str) -> str:
-    sleep_duration = random.uniform(0.5, 2.5)
+    sleep_duration = random.uniform(0.2, 1)
     print(f"[punct] Waiting for {sleep_duration:.2f} seconds...")
     time.sleep(sleep_duration)
     return f"{text}."
